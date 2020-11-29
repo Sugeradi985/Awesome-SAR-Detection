@@ -7,6 +7,8 @@
   - [SSDD](#ssdd)
   - [SSDD+](#ssdd-1)
   - [HRSID](#hrsid)
+  - [AIR-SARShip-1.0](#AIR-SARShip-1.0)
+  - [AIR-SARShip-2.0](#AIR-SARShip-2.0)
 
 # Datasets
 The datasets collected so far are all about ship detection. If there are other new data sets found, I will add them to this repository. If you find any links are unavailable, please contact me at: lijt55@mail2.sysu.edu.cn
@@ -110,3 +112,46 @@ As full negative SAR images can provide the information of land or sea clutter, 
 Here is the other version HRSID with png format images. It takes up much more storage space than the version of HRSID with jpg format images, while the high-fidelity SAR images are stored here. This version can be downloaded from the URL: https://drive.google.com/file/d/1xgXi8KC3MDWuu7Yp4n2J-LOPYLRszHAc/view?usp=sharing
 
 HRSID can be downloaded from Baidu Cloud: The files can also be downloaded from URL:Baidu cloud. Extraction code: vxrs https://pan.baidu.com/s/1EitHYJ7tpGh0q9Qb3QA5SQ
+
+## AIR-SARShip-1.0
+#### [[Link]](http://radars.ie.ac.cn/web/data/getData?newsColumnId=1e6ecbcc-266d-432c-9c8a-0b9a922b5e85)
+#### [[Paper]](http://radars.ie.ac.cn/article/doi/10.12000/JR19097): AIR-SARShip-1.0：高分辨率SAR舰船检测数据集
+#### [[Paper]](http://radars.ie.ac.cn/en/article/doi/10.12000/JR19097): AIR-SARShip-1.0: High Resolution SAR Ship Detection Dataset
+高分辨率SAR舰船检测数据集-1.0（AIR-SARShip-1.0）首批发布31幅图像，图像分辨率包括1m和3m，成像模式包括聚束式和条带式，极化方式为单极化，场景类型包含港口、岛礁、不同等级海况的海面，目标覆盖运输船、油船、渔船等十余类近千艘舰船。
+
+图像尺寸约为3000×3000像素，图像格式为Tiff、单通道、8/16位图像深度，标注文件提供相应图像的长宽尺寸、标注目标的类别以及标注矩形框的位置。
+```bibtex
+@articleInfo{R19097,
+title = "AIR-SARShip-1.0: High-resolution SAR Ship Detection Dataset (in English)",
+journal = "Journal of Radars",
+volume = "8",
+number = "R19097,
+pages = "852",
+year = "2019",
+note = "",
+issn = "2095-283X",
+doi = "10.12000/JR19097",
+url = "http://radars.ie.ac.cn/en/article/doi/10.12000/JR19097",
+author = "SUN Xian","WANG Zhirui","SUN Yuanrui","DIAO Wenhui","ZHANG Yue","FU Kun",keywords = "SAR ship detection","Public dataset","Deep learning",
+```
+## AIR-SARShip-2.0
+#### [[Link]](http://radars.ie.ac.cn/web/data/getData?newsColumnId=abd5c1b2-fe65-47f7-8ebf-990273a91a48)
+#### [[Paper]](http://radars.ie.ac.cn/article/doi/10.12000/JR19097): AIR-SARShip-1.0：高分辨率SAR舰船检测数据集
+#### [[Paper]](http://radars.ie.ac.cn/en/article/doi/10.12000/JR19097): AIR-SARShip-1.0: High Resolution SAR Ship Detection Dataset
+高分辨率SAR舰船检测数据集-2.0（AIR-SARShip-2.0）发布300幅图像，图像分辨率包括1m和3m，成像模式包括聚束式和条带式，极化方式为单极化，极化方式为VV，场景类型包含港口、岛礁、不同等级海况的海面，目标覆盖运输船、油船、渔船等十余类数千艘舰船。
+
+图像尺寸约为1000×1000像素，图像格式为Tiff、单通道、8/16位图像深度，标注文件提供相应图像的长宽尺寸、标注目标的类别以及标注矩形框的位置。
+```bibtex
+@articleInfo{R19097,
+title = "AIR-SARShip-1.0: High-resolution SAR Ship Detection Dataset (in English)",
+journal = "Journal of Radars",
+volume = "8",
+number = "R19097,
+pages = "852",
+year = "2019",
+note = "",
+issn = "2095-283X",
+doi = "10.12000/JR19097",
+url = "http://radars.ie.ac.cn/en/article/doi/10.12000/JR19097",
+author = "SUN Xian","WANG Zhirui","SUN Yuanrui","DIAO Wenhui","ZHANG Yue","FU Kun",keywords = "SAR ship detection","Public dataset","Deep learning",
+```
