@@ -9,6 +9,8 @@
   - [HRSID](#hrsid)
   - [AIR-SARShip-1.0](#AIR-SARShip-1.0)
   - [AIR-SARShip-2.0](#AIR-SARShip-2.0)
+  - [SAR Ship Dataset2](#SAR-Ship-Dataset2)
+  
 
 # Datasets
 The datasets collected so far are all about ship detection. If there are other new data sets found, I will add them to this repository. If you find any links are unavailable, please contact me at: lijt55@mail2.sysu.edu.cn
@@ -155,3 +157,8 @@ doi = "10.12000/JR19097",
 url = "http://radars.ie.ac.cn/en/article/doi/10.12000/JR19097",
 author = "SUN Xian","WANG Zhirui","SUN Yuanrui","DIAO Wenhui","ZHANG Yue","FU Kun",keywords = "SAR ship detection","Public dataset","Deep learning",
 ```
+## SAR Ship Dataset2
+#### [[Link]](https://gitlab.com/sarmaps/sar-ship-dataset)
+#### [[Paper]](https://ieeexplore.ieee.org/document/7729017): Very deep learning for ship discrimination in Synthetic Aperture Radar imagery
+
+This dataset was created to help facilitate meaningful comparisons between SAR ship detection and discrimination methods but also provides additional information about some of the ships within the dataset from matched AIS transmissions. These matched ships allow for additional research into information extraction from SAR medium resolution imagery. This distribution of the dataset consists of only the ships and not the raw SAR imagery.
