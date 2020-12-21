@@ -10,6 +10,7 @@
   - [AIR-SARShip-1.0](#AIR-SARShip-1.0)
   - [AIR-SARShip-2.0](#AIR-SARShip-2.0)
   - [SAR Ship Dataset2](#SAR-Ship-Dataset2)
+  - [GF-3 FUSAR-Ship Dataset](#GF-3-FUSAR-Ship-Dataset)
   
 
 # Datasets
@@ -162,3 +163,9 @@ author = "SUN Xian","WANG Zhirui","SUN Yuanrui","DIAO Wenhui","ZHANG Yue","FU Ku
 #### [[Paper]](https://ieeexplore.ieee.org/document/7729017): Very deep learning for ship discrimination in Synthetic Aperture Radar imagery
 
 This dataset was created to help facilitate meaningful comparisons between SAR ship detection and discrimination methods but also provides additional information about some of the ships within the dataset from matched AIS transmissions. These matched ships allow for additional research into information extraction from SAR medium resolution imagery. This distribution of the dataset consists of only the ships and not the raw SAR imagery.
+
+## GF-3 FUSAR-Ship Dataset
+#### [[Link]](http://www.emwlab.fudan.edu.cn/resources/main.psp)
+#### [[Paper]](https://link.springer.com/article/10.1007/s11432-019-2772-5): FUSAR-Ship: building a high-resolution SAR-AIS matchup dataset of Gaofen-3 for ship detection and recognition
+
+The FUSAR-Ship high-resolution GF-3 SAR dataset is constructed by running the procedure on a total of 126 GF-3 scenes covering a large variety of sea, land, coast, river and island scenarios. It includes more than 5000 ship chips with AIS messages as well as samples of strong scatterer, bridge, coastal land, islands, sea and land clutter. FUSAR-Ship is intended as an open benchmark dataset for ship and marine target detection and recognition. 
